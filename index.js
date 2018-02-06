@@ -18,6 +18,11 @@ axios.get('http://api.jirengu.com/weather.php', data)
       console.log(weather.temperature)
       console.log(weather.weather + ',' + weather.wind)
   })
+
+//1522380129
+//1611503966
+//996163400
+//18328029683
   .catch(function (error) {
     console.log(error);
   })
